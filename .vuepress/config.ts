@@ -5,10 +5,12 @@ import footer from "./footer";
 import extraSideBar from "./extraSideBar";
 
 const author = "程序员鱼皮";
-const domain = "https://codefather.cn";
+const domain = "https://sincostan.tech/";
 const tags = ["程序员", "编程", "计算机"];
 
 export default defineConfig({
+  base: "/manual/",
+  lang: "zh-CN",
   title: "鱼皮的编程宝典",
   description: "贴心的编程学习路线，全面的编程知识百科",
   head: [
